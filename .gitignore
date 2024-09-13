@@ -19,3 +19,9 @@
 /web/sites/*/files/css/
 /web/sites/*/files/js/
 /web/sites/*/files/php/
+
+# Ignore old config sync folder
+/sites/default/files/sync/
+
+# Track the new config sync directory
+!config/sync/
