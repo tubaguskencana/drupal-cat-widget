@@ -1,0 +1,7 @@
+name: 'Cat of the Day'
+type: module
+description: 'Displays a random cat picture with voting buttons.'
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:block

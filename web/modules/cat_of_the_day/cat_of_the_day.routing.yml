@@ -1,0 +1,7 @@
+cat_of_the_day.vote:
+  path: '/cat-of-the-day/vote'
+  defaults:
+    _controller: '\Drupal\cat_of_the_day\Controller\CatVotingController::vote'
+    _title: 'Cat Vote'
+  requirements:
+    _permission: 'access content'

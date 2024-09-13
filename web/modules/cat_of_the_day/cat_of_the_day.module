@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function cat_of_the_day_theme() {
+  return [
+    'cat_of_the_day' => [
+      'variables' => [
+        'cat_image' => NULL,
+      ],
+      'template' => 'cat-of-the-day',
+    ],
+  ];
+}

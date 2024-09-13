@@ -1,0 +1,8 @@
+cat_of_the_day:
+  version: 1.x
+  js:
+    js/cat_of_the_day.js: {}
+  dependencies:
+    - core/jquery
+    - core/once
+    - core/drupal

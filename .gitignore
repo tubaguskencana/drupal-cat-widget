@@ -1,0 +1,21 @@
+# Ignore composer dependencies
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+
+# Ignore configuration files for ddev or Docker
+.ddev/.global_commands/
+.ddev/db_snapshots/
+.ddev/import-db/
+.ddev/.gitignore
+.ddev/homeadditions/
+
+# Ignore database dumps
+/db_backups/
+
+# Drupal temporary files
+/web/sites/*/files/css/
+/web/sites/*/files/js/
+/web/sites/*/files/php/
