@@ -1,0 +1,14 @@
+uuid: b4ec25a3-52af-40b2-9c33-507d6f10eb87
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - t.kencana@youweagency.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

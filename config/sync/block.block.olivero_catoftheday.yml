@@ -1,0 +1,20 @@
+uuid: 92e5234e-a6d6-4488-9306-9423623f629c
+langcode: en
+status: true
+dependencies:
+  module:
+    - cat_of_the_day
+  theme:
+    - olivero
+id: olivero_catoftheday
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: cat_of_the_day_block
+settings:
+  id: cat_of_the_day_block
+  label: 'Cat of the Day'
+  label_display: visible
+  provider: cat_of_the_day
+visibility: {  }
