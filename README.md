@@ -35,7 +35,7 @@ This will create the containers and start the local development environment. Onc
 If a database dump is provided, you can import it using `ddev`:
 
 ```bash
-ddev import-db --src=db_backups/latest.sql
+ddev import-db --src=backups_db/latest.sql
 ```
 
 This will restore the database from the provided SQL dump.
